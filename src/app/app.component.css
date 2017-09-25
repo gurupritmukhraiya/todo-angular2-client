@@ -1,0 +1,26 @@
+.todo-text{
+    border:0px solid rgba(0,0,0,.15);
+}
+
+.todo-text:focus{
+    border-bottom:1px solid rgba(0,0,0,.15);
+}
+
+.todo-checkbox{
+    background-color :transparent;
+    border:0px;
+}
+
+.todo-done-task{
+    text-decoration: line-through;
+}
+
+.todo-add-task-text{
+    border:0px;
+    border-radius:0px;
+    border-bottom:1px solid #eee;
+}
+
+.todo-add-task-text:focus{
+    border-bottom:1px solid #138496;
+}
