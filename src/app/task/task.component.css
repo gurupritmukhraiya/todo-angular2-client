@@ -1,0 +1,16 @@
+.task-checkbox{
+    background-color :transparent;
+    border:0px;
+}
+
+.task-text{
+    border:0px solid rgba(0,0,0,.15);
+}
+
+.task-text:focus{
+    border-bottom:1px solid rgba(0,0,0,.15);
+}
+
+.task-done-text{
+    text-decoration: line-through;
+}
