@@ -6,7 +6,7 @@
     </div>
     <div class="card-body">
       <div class="input-group">
-        <input type="text" class="form-control todo-add-task-text" placeholder="Enter Note...">
+        <input type="text" class="form-control todo-add-task-text" placeholder="Enter Note..." (keydown.enter)="addTask()">
         <span class="input-group-btn">
           <button class="btn btn-info rounded-0" type="button" (click)="addTask()">
             <i class="fa fa-plus" aria-hidden="true"></i>
