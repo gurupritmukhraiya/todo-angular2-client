@@ -1,10 +1,14 @@
 .task-checkbox{
     background-color :transparent;
     border:0px;
+    padding: 2px 8px;
 }
 
 .task-text{
     border:0px solid rgba(0,0,0,.15);
+    font-size: 14px;
+    padding: 0px;
+    background-color: transparent;
 }
 
 .task-text:focus{
@@ -13,4 +17,14 @@
 
 .task-done-text{
     text-decoration: line-through;
+}
+
+.task-delete-btn{
+    padding: 2px 8px;
+    background-color: transparent;
+    border: 0;
+}
+
+.task-delete-btn:hover{
+    color: #e74c3c  ;
 }

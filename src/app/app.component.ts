@@ -10,9 +10,11 @@ export class AppComponent {
   id: string;
   title: string;
   tasks: Task[];
+  bg_color: string;
 
   constructor() {
     this.title = 'This is my todo list for testing purpose';
+    this.bg_color = "#f7dc6f";
     this.tasks = [
       new Task("1", "This is first Task", "PENDING"),
       new Task("2", "This is second Task", "PENDING"),
