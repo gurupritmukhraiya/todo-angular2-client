@@ -1,16 +1,6 @@
 <div class="card-columns">
-  <div class="card rounded-0 todo-card" [style.background-color]="bg_color">
-    <div class="todo-title-text">
-      <h4 *ngIf="!isEdit" (click)="isEdit=true" from="name">{{title}}</h4>
-      <input *ngIf="isEdit" class="form-control" (keydown.enter)="isEdit=false" [(ngModel)]="title" type="text">
-    </div>
-    <div class="input-group">
-      <input type="text" class="form-control todo-add-task-text" placeholder="Enter Note..." (keydown.enter)="addTask()">
-      <span class="input-group-btn">
-          <button class="btn rounded-0" type="button" (click)="addTask()"><i class="fa fa-plus fa-2" aria-hidden="true"></i></button>
-      </span>
-    </div>
-    <task *ngFor="let task of tasks" [task]="task" (onRemove)="onRemove($event)"></task>
-    <div class="card-footer text-muted">2 days ago</div>
-  </div>
+  <todo></todo>
+  <todo></todo>
+  <todo></todo>
+  <todo></todo>
 </div>

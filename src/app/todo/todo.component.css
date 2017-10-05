@@ -1,0 +1,49 @@
+.todo-add-task-btn{
+    padding: 2px 8px;
+    background-color: transparent;
+    border: 0;
+}
+
+.todo-add-task-text{
+    border:0px;
+    border-radius:0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.todo-add-task-text:focus{
+    border-bottom:1px solid #eee;
+}
+
+.todo-title-text input[type="text"], .todo-title-text h4{
+    padding: 15px 15px 0 15px;
+    border:0px;
+    border-radius:0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.todo-title-text input[type="text"]:focus{
+    border-bottom:1px solid #888;
+    background-color: transparent;
+}
+
+.todo-card * {
+    background-color: transparent;
+}
+
+.todo-card{
+    border:0;
+}
+
+.todo-card:hover{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+    transform: scale(1.02);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.02);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.02);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.02);
+    transition: all 200ms ease-in;
+}
