@@ -10,5 +10,12 @@
       </span>
   </div>
   <task *ngFor="let task of tasks" [task]="task" (onRemove)="onRemove($event)"></task>
-  <div class="card-footer text-muted">2 days ago</div>
+  <div class="card-footer text-muted">
+    2 days ago
+    <div class="text-dark float-right" (mouseover)="console.log('Hi')">
+      <i class="fa fa-paint-brush" aria-hidden="true"></i>
+    </div>
+  </div>
+
+
 </div>
